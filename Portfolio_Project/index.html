@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Devicon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.17.0/devicon.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header start here -->
+    <header style="text-align: center">
+      <h1>Krrish Kohli</h1>
+      <p>Web Developer & Designer</p>
+      <img
+        width="200px"
+        height="200px"
+        style="border-radius: 50%; object-fit: cover"
+        src="./images/ProfilePic.png"
+        alt="my profile pic"
+      />
+    </header>
+    <!-- Header end here -->
+
+    <!-- About section starts here -->
+    <section>
+      <h2>About Me</h2>
+      <p>
+        CS Honors undergrad (B.S., May 2027, GPA 3.95) with experience building
+        AI/ML–driven products, data pipelines, and backend services end-to-end.
+        Comfortable turning ambiguous product questions into metrics,
+        dashboards, experiments, and roadmap. Hands-on with Python, SQL, Git,
+        Docker, and Gen AI APIs; shipped applications to 200+ users and improved
+        model performance (+20% accuracy / +25% sensitivity) and system
+        reliability (-35% classification errors). Excited about Technical
+        Product Management for enterprise AI infrastructure, cloud-style
+        services, and GPU-accelerated/Gen AI workflows.
+      </p>
+    </section>
+    <!-- About section ends here -->
+
+    <!-- Projects start here -->
+    <section style="text-align: center">
+      <h2>Projects</h2>
+      <article>
+        <h3>Project 1: Clinical Interaction Knowledge Graph</h3>
+        <img
+          width="450"
+          height="300"
+          src="./images/Project1.png"
+          alt="image of knowledge graph from the clinical interaction knowledge graph project"
+        />
+        <p>
+          Built an end-to-end pipeline to extract entities/relations from PDFs
+          and notes, then materialize a Neo4j graph via and a Dockerized
+          stack.<br />
+          Modeled nodes/edges and enforced simple schema/validation; produced a
+          curated JSON for reproducibility.<br />
+          Used an LLM assist (ChatGPT) for entity extraction with guardrails and
+          deterministic fallbacks, documented assumptions and failure modes.<br />
+          <b>Languages and Frameworks</b>: Python, Neo4j, Docker, HTML, CSS,
+          JavaScript, React.<br />
+        </p>
+      </article>
+
+      <article>
+        <h3>Project 2: FableFrog AI</h3>
+        <img
+          width="450"
+          height="300"
+          src="./images/Project2.png"
+          alt="image of the chats with the chatbot of the FableFrog AI"
+        />
+        <p>
+          Built a lightweight text to speech service in less than 36 hours;
+          served 200+ users.<br />
+          Implemented REST endpoints, caching, and structured logs; delivered
+          quick visualizations for teammates.<br />
+          Wrote endpoint docs and testing procedures to streamline collaboration
+          and debugging.<br />
+          <b>Languages and Frameworks</b>: Python, OpenAI API, ElevenLabs, OS,
+          Gradio.<br />
+        </p>
+      </article>
+
+      <article>
+        <h3>Project 3: Eyetalk</h3>
+        <img
+          width="450"
+          height="300"
+          src="./images/Project3.png"
+          alt="image of the interactive eye-controlled keyboard and whiteboard of Eyetalk"
+        />
+        <p>
+          Built a webcam-based, eye-controlled virtual keyboard for hands-free
+          typing—look left/right to choose a keyboard side and blink to select
+          characters.<br />
+          Implemented real-time gaze + blink tracking using OpenCV + dlib facial
+          landmarks, with lightweight logic (no GPU/deep-learning requirement)
+          for stable interaction.<br />
+          Added audible confirmations and read-back using ElevenLabs
+          text-to-speech to improve accessibility and feedback during typing.<br />
+          <b>Languages and Frameworks</b>: Python, OpenCV, dlib, NumPy,
+          ElevenLabs.<br />
+        </p>
+      </article>
+    </section>
+    <!-- Projects ends here -->
+
+    <!-- Skills starts here -->
+    <section style="text-align: center">
+      <h2>Skills</h2>
+
+      <h3 style="text-align: center">Frontend</h3>
+      <ul
+        style="
+          list-style: none;
+          padding: 0;
+          margin: 0 auto 24px;
+          display: inline-block;
+          text-align: left;
+        "
+      >
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="fa-brands fa-html5"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>HTML</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="fa-brands fa-css3-alt"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>CSS</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="fa-brands fa-js"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>JavaScript</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="devicon-typescript-plain colored"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>TypeScript</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="fa-brands fa-react"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>React</span>
+        </li>
+      </ul>
+
+      <h3 style="text-align: center">Backend & Data Engineering</h3>
+      <ul
+        style="
+          list-style: none;
+          padding: 0;
+          margin: 0 auto 24px;
+          display: inline-block;
+          text-align: left;
+        "
+      >
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="fa-brands fa-python"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>Python</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="fa-brands fa-node-js"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>Node.js</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="fa-solid fa-database"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>SQL</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="devicon-neo4j-plain colored"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>Neo4j</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="fa-solid fa-server"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>REST APIs</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="fa-solid fa-diagram-project"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>ETL Pipelines</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="fa-solid fa-envelope"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>SMTP</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="devicon-twilio-plain colored"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>Twilio</span>
+        </li>
+      </ul>
+
+      <h3 style="text-align: center">AI / ML</h3>
+      <ul
+        style="
+          list-style: none;
+          padding: 0;
+          margin: 0 auto 24px;
+          display: inline-block;
+          text-align: left;
+        "
+      >
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="devicon-numpy-original colored"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>NumPy</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="devicon-pandas-original colored"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>Pandas</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="devicon-scikitlearn-plain colored"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>scikit-learn</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="fa-solid fa-chart-line"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>Feature Engineering</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="fa-solid fa-wave-square"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>Time Series</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="fa-solid fa-square-check"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>Model Evaluation</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="fa-solid fa-robot"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>OpenAI API</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="fa-solid fa-volume-high"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>ElevenLabs</span>
+        </li>
+      </ul>
+
+      <h3 style="text-align: center">Tools & Platforms</h3>
+      <ul
+        style="
+          list-style: none;
+          padding: 0;
+          margin: 0 auto 24px;
+          display: inline-block;
+          text-align: left;
+        "
+      >
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="fa-brands fa-git-alt"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>Git</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="fa-brands fa-github"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>GitHub</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="fa-brands fa-docker"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>Docker</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="fa-brands fa-linux"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>Linux</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="devicon-jupyter-plain colored"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>Jupyter</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="devicon-tableau-plain colored"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>Tableau</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="fa-solid fa-chart-simple"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>Looker</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="fa-solid fa-diagram-project"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>Gradio</span>
+        </li>
+      </ul>
+
+      <h3 style="text-align: center">Other Languages</h3>
+      <ul
+        style="
+          list-style: none;
+          padding: 0;
+          margin: 0 auto 24px;
+          display: inline-block;
+          text-align: left;
+        "
+      >
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="devicon-cplusplus-plain colored"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>C++</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="devicon-c-plain colored"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>C</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="devicon-java-plain colored"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>Java</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="devicon-csharp-plain colored"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>C#</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="devicon-haskell-plain colored"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>Haskell</span>
+        </li>
+        <li
+          style="display: flex; align-items: center; gap: 10px; margin: 6px 0"
+        >
+          <i
+            class="devicon-prolog-plain colored"
+            aria-hidden="true"
+            style="width: 1.4em; text-align: center"
+          ></i
+          ><span>Prolog</span>
+        </li>
+      </ul>
+    </section>
+    <!-- Skills ends here -->
+
+    <!-- Contact starts here -->
+    <section style="text-align: center">
+      <h2>Contact</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+        perferendis similique enim fuga sequi esse distinctio, consequatur
+        eligendi veritatis eum totam quod asperiores tempora iste voluptate cum
+        at est libero?
+      </p>
+      <ul style="list-style: none">
+        <li><i class="fas fa-envelope"></i> Email: krrishkohli15@gmail.com<</li>
+        <li>
+          <i class="fab fa-linkedin"></i> LinkedIn:
+          <a href="https://www.linkedin.com/in/krrish-kohli-16b3aa310"
+            >linkedin.com/in/krrish-kohli</a
+          >
+        </li>
+        <li>
+          <i class="fab fa-github"></i> Github:
+          <a href="https://github.com/krrish-kohli">github.com/krrish-kohli</a>
+        </li>
+      </ul>
+    </section>
+    <!-- Contact ends here -->
+
+    <!-- Contact form starts here -->
+    <section style="text-align: center">
+      <h3>Contact Form</h3>
+      <form action="">
+        <label>Name:</label>
+        <input type="text" required />
+        <br />
+        <br />
+        <label>Email:</label>
+        <input type="email" required />
+        <br />
+        <br />
+        <label style="vertical-align: top">Message:</label>
+        <textarea rows="4"></textarea>
+      </form>
+    </section>
+    <!-- Contact form ends here -->
+  </body>
+</html>
